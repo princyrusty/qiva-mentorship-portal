@@ -1,0 +1,179 @@
+<main id="main">
+  <div class="hero">
+    <div class="hero-shell">
+      <div class="hero-copy">
+        <span class="eyebrow">One-to-one mentorship · by the session or by the month</span>
+        <h1>Get a mentor for the one thing <em>holding you back.</em></h1>
+        <p class="rotator">Work through <span class="rot-word" id="rotWord">choosing the right career</span> <span>with someone a few steps ahead, in a private room, at a time that suits you.</span></p>
+        <form class="finder" id="finder" role="search">
+          <label class="sr" for="finderInput">What do you need help with?</label>
+          <input id="finderInput" type="text" placeholder="What do you need help with? For example, choosing a stream" autocomplete="off">
+          <button class="btn btn-dark" type="submit">Find a slot <span class="arr" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+        </form>
+        <div class="track-chips" id="heroChips"><span class="eyebrow">Start with a track</span></div>
+        <div class="hero-facts">
+          <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>From ₹599, inc. GST</span>
+          <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Slots in IST, evenings and weekends</span>
+          <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Free 10 minute intro call</span>
+        </div>
+      </div>
+
+      <div class="room" aria-label="Sample of a QIVA mentoring session">
+        <div class="room-top">
+          <span class="rec" aria-hidden="true"><i></i><span id="recTime">00:12:32</span></span>
+          <span class="roomlink"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>Private room · QIVA-QV7K2M9X</span>
+          <span class="tag sample-tag">Sample session</span>
+        </div>
+        <div class="room-body">
+          <div class="rail" aria-hidden="true">
+            <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.8 7L4 20l1.1-4.6A8 8 0 1 1 21 12z"/></svg></span>
+            <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="4" y="5" width="16" height="15" rx="3"/><path d="M8 3v4M16 3v4M4 10h16"/></svg></span>
+            <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg></span>
+            <span class="on"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10l5-3v10l-5-3z"/></svg></span>
+            <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="7" height="7" rx="2"/><rect x="13" y="4" width="7" height="7" rx="2"/><rect x="4" y="13" width="7" height="7" rx="2"/><rect x="13" y="13" width="7" height="7" rx="2"/></svg></span>
+          </div>
+          <div class="stage">
+            <div class="tile tile-main speaking" id="tileMentor">
+              <div class="art" id="artMentor"></div>
+              <div class="scrim"></div>
+              <div class="caption" id="caption"><b id="capWho">Meera · mentor</b><span id="capText">Let’s start with what you enjoy and what you are good at.</span></div>
+              <div class="who"><strong>Meera</strong><span>Career guidance mentor · Engineer</span></div>
+              <span class="wave" id="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+            </div>
+            <div class="thumbs">
+              <div class="tile thumb learner" id="tileLearner"><div class="art" id="artLearner"></div><span class="name">Aditi · Class 12</span></div>
+              <div class="tile thumb notes"><span class="hd"><i></i>Session notes</span><ul id="notesList"><li></li><li></li><li></li></ul></div>
+              <div class="tile thumb slotcard"><span class="eyebrow">Next session</span><span class="t">Sat · 5:00 PM IST</span><span class="bar"><i id="goalBar" style="width:35%"></i></span><span class="muted small">Goals this month: <span id="goalTxt">1 of 3</span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
+
+  <section id="mentorship">
+    <div class="sec-head"><div><span class="eyebrow">What is mentorship</span><h2>A mentor is someone a few steps ahead who walks with you</h2></div></div>
+    <div class="mentor-grid">
+      <div class="lead">
+        <p>A teacher covers a syllabus. A mentor works on <strong>you</strong>: your goal, your habits, your doubts and the next step that will actually move you forward.</p>
+        <p>It can be a student stuck on a chapter, a graduate choosing a first job, a founder with a half-formed idea, or anyone who wants to speak, think or learn with more confidence. At QIVA each session is one to one, in a private video room, at a time that suits you.</p>
+      </div>
+      <div class="quote"><p>Most people do not fail for lack of effort. They lose months going in the wrong direction, doubting themselves, or waiting for an answer nobody gave. A mentor shortens that road.</p><span class="src">Why QIVA exists</span></div>
+    </div>
+    <div class="benefits" id="benefits"></div>
+    <div class="trustrow">
+      <div><strong>Private by design</strong><span>No public profiles or shared feeds. Your request reaches our team directly.</span></div>
+      <div><strong>Slots in IST</strong><span>Evenings and weekends, shown in Indian Standard Time.</span></div>
+      <div><strong>Private video room</strong><span>Join in one tap. Voice or video, with screen sharing on longer sessions.</span></div>
+      <div><strong>Notes after every session</strong><span>A written summary and action points by email.</span></div>
+    </div>
+  </section>
+
+  <section id="tracks" style="padding-top:0">
+    <div class="panel">
+      <div class="sec-head"><div><span class="eyebrow">Six mentorship tracks</span><h2>Pick the road you are on</h2><p>Every plan and session works for every track. Choose one to see what people usually bring to it.</p></div></div>
+      <div class="explorer">
+        <div class="tlist" role="tablist" aria-label="Mentorship tracks" id="tlist"></div>
+        <div class="tdetail" role="tabpanel" id="tdetail" aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="plans">
+    <div class="sec-head"><div><span class="eyebrow">Plans and prices</span><h2>Book once, or keep a weekly rhythm</h2><p>All prices include GST. Monthly plans give you one mentor who knows your goals and a lower rate per session.</p></div></div>
+    <div class="intro">
+      <div><h3>Not ready to commit? Take a free 10 minute intro call.</h3><p>Meet your mentor, share your goal and see if it feels right before you pay for anything.</p></div>
+      <a class="btn btn-amber" id="introLink" href="/contact" target="_blank" rel="noopener">Book the free intro call</a>
+    </div>
+    <div class="plans-top">
+      <div class="seg" id="planSeg" role="group" aria-label="Plan type"><span class="knob"></span><button type="button" aria-pressed="true" data-kind="plan">Monthly plans</button><button type="button" aria-pressed="false" data-kind="single">Single sessions</button></div>
+      <span class="muted" id="planNote">Four sessions a month with the same mentor.</span>
+    </div>
+    <div class="cards" id="cards"></div>
+    <div class="allplans"><span class="tag">Private video room</span><span class="tag">Slots in IST</span><span class="tag">Notes after every session</span><span class="tag">Works for every track</span><span class="tag">Cancel any time</span></div>
+    <div class="custom"><div><h3>Need something specific?</h3><p>Tell us the subject, the topic and your exam date. We build a custom plan or a one-off session around it, and quote you before you pay anything.</p></div><a class="btn btn-dark" href="/contact?topic=custom">Request a custom plan</a></div>
+  </section>
+
+  <section id="compare" style="padding-top:0">
+    <div class="panel">
+      <div class="sec-head"><div><span class="eyebrow">What each rupee buys</span><h2>See what a plan saves you</h2><p>Move the slider to the number of sessions you expect each month. The rate falls as you commit to a rhythm.</p></div></div>
+      <div class="calc">
+        <div class="calc-in">
+          <div class="field"><span class="lbl">Session length</span><div class="seg" id="calcLen" role="group" aria-label="Session length"><span class="knob"></span><button type="button" aria-pressed="false" data-len="30">30 min</button><button type="button" aria-pressed="true" data-len="60">60 min</button><button type="button" aria-pressed="false" data-len="90">90 min</button></div></div>
+          <div class="field"><label for="calcN">Sessions a month</label><div class="rangeval" id="calcNVal">4</div><input id="calcN" type="range" min="1" max="8" step="1" value="4"><span class="hint">Monthly plans include four sessions. Extra sessions are billed at the single-session price.</span></div>
+        </div>
+        <div class="calc-out" aria-live="polite">
+          <span class="eyebrow on-dark">Our suggestion</span>
+          <p class="verdict" id="calcVerdict"></p>
+          <div class="cbar" id="barPlan"><div class="lab"><span id="barPlanLab"></span><span id="barPlanVal"></span></div><div class="track"><i></i></div></div>
+          <div class="cbar alt" id="barSingle"><div class="lab"><span id="barSingleLab"></span><span id="barSingleVal"></span></div><div class="track"><i></i></div></div>
+          <button class="btn btn-amber" type="button" id="calcBook">Book this</button>
+        </div>
+      </div>
+      <div class="tablewrap"><table><thead><tr><th scope="col">Option</th><th scope="col">What you get</th><th scope="col">Price</th><th scope="col">Per session</th><th scope="col">Compared with booking singly</th></tr></thead><tbody id="cmpBody"></tbody></table></div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="sec-head"><div><span class="eyebrow">How it works</span><h2>From your question to your first session</h2></div><button class="btn btn-dark" type="button" data-book>Start booking <span class="arr" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button></div>
+    <div class="how">
+      <ol class="steps">
+        <li><span class="n">1</span><h3>Tell us what you need</h3><p>Pick a track, a focus area and say exactly what you want help with. The more specific you are, the better the mentor match.</p></li>
+        <li><span class="n">2</span><h3>Choose a slot</h3><p>See open times in IST and pick up to two. We confirm one of them with you on WhatsApp or email.</p></li>
+        <li><span class="n">3</span><h3>Pay to confirm</h3><p>Scan the QR code or pay our UPI ID from any UPI app. Online card and netbanking payments are coming soon.</p></li>
+        <li><span class="n">4</span><h3>Meet and keep the notes</h3><p>Join your private video room at the confirmed time. Afterwards you get written notes and action points by email.</p></li>
+      </ol>
+      <div class="month" aria-label="Example month on the Pragati plan">
+        <div class="hd"><h3>A month on Pragati</h3><span class="tag">Example</span></div>
+        <div class="week"><div class="r"><strong>Week 1 · Set the goal</strong><span class="mono">60 min</span></div><span class="bar"><i style="width:100%"></i></span></div>
+        <div class="week"><div class="r"><strong>Week 2 · Practise with feedback</strong><span class="mono">60 min</span></div><span class="bar"><i style="width:100%"></i></span></div>
+        <div class="week"><div class="r"><strong>Week 3 · Fix what slipped</strong><span class="mono">60 min</span></div><span class="bar"><i style="width:60%"></i></span></div>
+        <div class="week"><div class="r"><strong>Week 4 · Progress report</strong><span class="mono">60 min</span></div><span class="bar"><i style="width:8%"></i></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why" style="padding-top:0">
+    <div class="sec-head"><div><span class="eyebrow">Why mentoring</span><h2>Why a mentor beats another video</h2></div></div>
+    <div class="vs">
+      <div><h3>It starts at your exact doubt</h3><p>A course moves at the speed of its syllabus. A session begins at the line where you got stuck.</p></div>
+      <div><h3>You can interrupt</h3><p>Stop the explanation, ask the question, and get an answer in the context of your own problem.</p></div>
+      <div><h3>Someone checks your work</h3><p>The mentor looks at your attempt and points to the step where it went wrong.</p></div>
+      <div><h3>You pay for the topic</h3><p>No bundle to finish. Buy 30 minutes for one concept, or a month when you need a routine.</p></div>
+    </div>
+    <div class="callout"><h3>Why subscribe instead of booking one at a time?</h3><p>Doubts rarely come alone. A weekly slot turns scattered questions into a habit, keeps one mentor who already knows where you struggle, and costs less per session. The calculator above shows the exact rate for every option.</p></div>
+  </section>
+
+  <section id="become" style="padding-top:0">
+    <div class="mentor-band">
+      <div><span class="eyebrow on-dark">For working professionals and educators</span><h2>Know your field? Mentor with QIVA.</h2><p>Guide students one to one from home, at hours you choose. We handle bookings and payments.</p></div>
+      <a class="btn btn-amber" href="/mentor">Become a mentor <span class="arr" aria-hidden="true" style="background:var(--ink);color:#fff"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+    </div>
+  </section>
+
+  <section id="spirit" style="padding-top:0">
+    <div class="panel">
+      <div class="sec-head"><div><span class="eyebrow">The idea behind QIVA</span><h2>Expert help, close to the problem</h2><p>Uttarakhand has recently put AI learning and grassroots mentorship at the centre of several public initiatives. QIVA Mentorship takes the same idea to individual learners, wherever they study.</p></div></div>
+      <div class="facts">
+        <div class="fact"><span class="big">13 districts</span><h3>Operation Kalki</h3><p>A campaign that took AI teaching into government schools across all 13 districts of the state. Student ideas from it grew into more than 100 practical AI applications.</p></div>
+        <div class="fact"><span class="big">29 Jul 2026</span><h3>Operation Saathi</h3><p>Launched at Lok Bhavan, Dehradun, to find hidden talent and grassroots innovators in remote areas, and to connect them with mentorship and incubation support.</p></div>
+        <div class="fact"><span class="big">14 May 2026</span><h3>AI Theme Room and AI on Wheels</h3><p>A space for youth to learn and build with AI, plus a mobile AI centre that travels to schools and villages to narrow the digital divide.</p></div>
+      </div>
+      <p class="disc">QIVA Mentorship is an independent service of QIVA Connect Private Limited. It is inspired by these initiatives and is not operated or endorsed by any government office.</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="sec-head"><div><span class="eyebrow">Questions</span><h2>Before you book</h2></div><a class="btn" href="/contact">Ask us something else</a></div>
+    <div class="faq" id="faqList"></div>
+  </section>
+</main>
+
+<div class="mbar"><a class="btn" id="mbarWa" href="/contact" target="_blank" rel="noopener">WhatsApp</a><button class="btn btn-dark" type="button" data-book>Book a session</button></div>
+
+<div class="modal" id="bookModal" hidden><div class="dialog" role="dialog" aria-modal="true" aria-labelledby="bkTitle">
+  <div class="dhead"><div class="r"><div class="stack-6"><span class="eyebrow" id="bkStep">Step 1 of 4</span><h2 id="bkTitle">What would you like to book?</h2></div><button class="iconbtn" type="button" id="bkClose" aria-label="Close booking"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><div class="progress" id="bkProg"><i></i><i></i><i></i><i></i></div></div>
+  <div class="dbody" id="bkBody"></div>
+  <div class="dfoot"><button class="btn" type="button" id="bkBack">Back</button><span class="err" id="bkErr" role="alert"></span><button class="btn btn-dark" type="button" id="bkNext">Continue</button></div>
+</div></div>
