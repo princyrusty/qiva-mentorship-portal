@@ -1,0 +1,13 @@
+{
+  "name": "QIVA Mentorship",
+  "short_name": "QIVA",
+  "description": "One-to-one mentorship for students and early professionals in India.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
